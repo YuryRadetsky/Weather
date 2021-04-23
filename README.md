@@ -6,7 +6,7 @@ Native Weather App Clone.
 ### Main Screen
 <img src="images/1-screen.png" alt="" width = "270" height = "510">
 
-## Features
+## Technologies and tools
 * Frameworks: UIKit, Foundation,  CoreLocation
 * Using the MVC architecture
 * Work with Api
