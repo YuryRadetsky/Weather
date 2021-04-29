@@ -5,9 +5,7 @@
 //  Created by Yury Radetsky on 15.04.2021.
 //
 
-import Foundation
 import UIKit
-
 
 extension UIImageView {
     func downloaded(from url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {

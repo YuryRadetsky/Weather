@@ -134,7 +134,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
                 return cell
                 
             case .information:
-                let cell = tableView.dequeueReusableCell(withIdentifier: "InformationTableViewCell", for: indexPath) as! InformationTableViewCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: InformationTableViewCell.identifier, for: indexPath) as! InformationTableViewCell
                 if let weatherModel = weatherModel {
                     cell.configure(model: weatherModel)
                 }
@@ -143,7 +143,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
                 return cell
                 
             case .description:
-                let cell = tableView.dequeueReusableCell(withIdentifier: "DescriptionTableViewCell", for: indexPath) as! DescriptionTableViewCell
+                let cell = tableView.dequeueReusableCell(withIdentifier: DescriptionTableViewCell.identifier, for: indexPath) as! DescriptionTableViewCell
                 if let weatherModel = weatherModel {
                     cell.configure(model: weatherModel)
                 }

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import UIKit
 
 protocol DataFetcher {
     func fetchData<T: Codable>(urlString: String, completion: @escaping (T?) -> Void)
